@@ -46,13 +46,14 @@ function Index() {
           <div>
             <span className="eyebrow">Para mães reais, sem tempo a perder</span>
             <h1 className="mt-4 font-display text-4xl leading-[1.08] text-primary md:text-[3.4rem]">
-              Resolva a lancheira da semana inteira
-              <span className="block text-brick">em 5 minutos por manhã.</span>
+              Nunca mais encare a geladeira aberta
+              <span className="block text-brick">às 6h40 da manhã.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Você não precisa salvar mais cem receitas, nem virar nutricionista,
-              nem acordar mais cedo. Precisa de um sistema simples que decide por
-              você enquanto o café ainda está passando.
+              O Método Lancheira da Flora transforma um pré-preparo de fim de
+              semana em lanches prontos o mês inteiro — você só abre o
+              congelador, monta e entrega. Sem receita nova, sem culpa, sem
+              acordar mais cedo.
             </p>
 
             <ul className="mt-7 grid gap-2.5 text-[0.98rem] text-primary/85">
