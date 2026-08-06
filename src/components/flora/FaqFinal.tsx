@@ -57,7 +57,9 @@ export function FaqFinal() {
             vai abrir o congelador e pegar o que já está pronto? São R$ 97 para
             comprar de volta as suas manhãs.
           </p>
-          <CTAButton className="mt-8">Começar agora por R$ 97</CTAButton>
+          <CTAButton className="btn-cta-gold mt-8">
+            Começar agora por R$ 97
+          </CTAButton>
         </div>
       </Section>
 

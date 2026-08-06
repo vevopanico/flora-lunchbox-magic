@@ -127,7 +127,9 @@ export function Metodo() {
               Seu filho comendo de verdade, você saindo de casa leve e a culpa
               fora da mochila. Esse é o combinado.
             </p>
-            <CTAButton className="mt-6 w-full">Quero esse resultado</CTAButton>
+            <CTAButton className="btn-cta-gold mt-6 w-full">
+              Quero esse resultado
+            </CTAButton>
           </div>
         </div>
       </div>
