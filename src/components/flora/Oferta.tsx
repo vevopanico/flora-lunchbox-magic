@@ -4,28 +4,28 @@ import produto from "@/assets/produto.jpg";
 const bonus = [
   {
     tag: "Bônus 1",
-    titulo: "O Guia Visual da Lancheira Perfeita",
-    sub: "15 combinações prontas e equilibradas. Zero criatividade exigida.",
+    titulo: "Domingo de 40 Minutos",
+    sub: "O roteiro cronometrado do pré-preparo: o que picar, assar e congelar, na ordem certa.",
   },
   {
     tag: "Bônus 2",
-    titulo: "Manual do Botão de Pânico",
-    sub: "15 lanches de até 3 minutos para os dias em que tudo deu errado.",
+    titulo: "Lista de Compras Inteligente",
+    sub: "Uma folha só, por seção do mercado, que abastece a lancheira por 30 dias.",
   },
   {
     tag: "Bônus 3",
-    titulo: "Pequenos Chefes na Cozinha",
-    sub: "Receitas para fazer junto e vencer a rejeição alimentar de vez.",
+    titulo: "Termômetro da Rejeição",
+    sub: "O passo a passo para apresentar um alimento novo sem virar briga na mesa.",
   },
   {
     tag: "Bônus 4",
-    titulo: "Mapa do Congelamento Seguro",
-    sub: "O que congela, o que não congela e por quanto tempo. Sem medo.",
+    titulo: "Caderno das Trocas Espertas",
+    sub: "Substituições um-para-um: sem glúten, sem lactose, sem castanha, mesmo preparo.",
   },
   {
     tag: "Bônus 5",
-    titulo: "Lancheira Sem Glúten e Sem Lactose",
-    sub: "Adaptações simples para restrições, sem cozinhar duas vezes.",
+    titulo: "Plano Manhã Caótica",
+    sub: "12 montagens de 3 minutos com o que sempre tem em casa, para o dia em que nada saiu como planejado.",
   },
 ];
 
