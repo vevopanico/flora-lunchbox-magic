@@ -131,9 +131,6 @@ export function Oferta() {
               </p>
             </div>
 
-            <p className="mt-6 text-center text-sm text-primary-foreground/70">
-              Protegido pela garantia incondicional de 7 dias.
-            </p>
 
           </div>
         </div>
