@@ -131,16 +131,10 @@ export function Oferta() {
               </p>
             </div>
 
-            <div className="mt-6 rounded-2xl border border-gold/40 p-6">
-              <h3 className="text-lg text-gold">
-                Garantia incondicional de 7 dias
-              </h3>
-              <p className="mt-2 text-sm text-primary-foreground/75">
-                Teste o método por uma semana inteira. Se as suas manhãs não
-                ficarem mais leves, você pede o reembolso e devolvemos cada
-                centavo. O risco é meu, não seu.
-              </p>
-            </div>
+            <p className="mt-6 text-center text-sm text-primary-foreground/70">
+              Protegido pela garantia incondicional de 7 dias.
+            </p>
+
           </div>
         </div>
       </Section>

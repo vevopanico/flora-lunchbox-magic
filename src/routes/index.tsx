@@ -3,6 +3,7 @@ import hero from "@/assets/hero-lancheira.jpg";
 import { CTAButton } from "@/components/flora/ui";
 import { Dores, Metodo } from "@/components/flora/Metodo";
 import { Oferta } from "@/components/flora/Oferta";
+import { Lancheiras, Garantia } from "@/components/flora/Lancheiras";
 import { FaqFinal } from "@/components/flora/FaqFinal";
 
 const title = "Lancheira da Flora | Lancheiras saudáveis em 5 minutos";
@@ -104,7 +105,9 @@ function Index() {
 
       <Dores />
       <Metodo />
+      <Lancheiras />
       <Oferta />
+      <Garantia />
       <FaqFinal />
     </main>
   );
