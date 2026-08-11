@@ -44,28 +44,28 @@ const eSim = [
 export function Oferta() {
   return (
     <>
-      <Section className="bg-secondary">
+      <Section className="bg-brick text-brick-foreground">
         <div className="mx-auto max-w-3xl text-center">
-          <span className="eyebrow">Pausa na programação</span>
-          <h2 className="mt-4 text-3xl md:text-[2.6rem]">
+          <span className="eyebrow text-gold">Pausa na programação</span>
+          <h2 className="mt-4 text-3xl text-brick-foreground md:text-[2.6rem]">
             Prefiro perder a venda a te vender a coisa errada.
           </h2>
         </div>
-        <div className="mx-auto mt-10 grid md:mt-12 max-w-4xl gap-6 md:grid-cols-2">
-          <div className="surface-card p-7">
-            <h3 className="text-xl text-brick">O que isso não é</h3>
-            <ul className="mt-4 grid gap-3 text-muted-foreground">
+        <div className="mx-auto mt-10 grid max-w-4xl gap-6 md:mt-12 md:grid-cols-2">
+          <div className="rounded-3xl bg-brick-foreground/10 p-7">
+            <h3 className="text-xl text-brick-foreground">O que isso não é</h3>
+            <ul className="mt-4 grid gap-3 text-brick-foreground/80">
               {naoE.map((t) => (
                 <li key={t} className="flex gap-3">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brick" />
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
                   {t}
                 </li>
               ))}
             </ul>
           </div>
-          <div className="surface-card p-7">
-            <h3 className="text-xl text-primary">O que isso é</h3>
-            <ul className="mt-4 grid gap-3 text-muted-foreground">
+          <div className="rounded-3xl bg-brick-foreground/10 p-7">
+            <h3 className="text-xl text-brick-foreground">O que isso é</h3>
+            <ul className="mt-4 grid gap-3 text-brick-foreground/80">
               {eSim.map((t) => (
                 <li key={t} className="flex gap-3">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
