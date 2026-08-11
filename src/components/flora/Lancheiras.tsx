@@ -79,7 +79,7 @@ export function Lancheiras() {
         </div>
       </div>
 
-      <div className="mt-12 text-center">
+      <div className="mt-10 text-center">
         <CTAButton>Quero montar assim amanhã</CTAButton>
       </div>
     </Section>

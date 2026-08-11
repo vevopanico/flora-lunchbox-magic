@@ -63,7 +63,7 @@ export function FaqFinal() {
         </div>
       </Section>
 
-      <footer className="border-t bg-background py-10">
+      <footer className="border-t bg-background py-8">
         <div className="container-page text-center text-sm text-muted-foreground">
           <p className="font-display text-lg text-primary">
             Lancheira da Flora
