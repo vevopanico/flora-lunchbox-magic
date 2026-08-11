@@ -27,20 +27,6 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <main>
-      <header className="border-b bg-background/90 py-4 backdrop-blur">
-        <div className="container-page flex items-center justify-between">
-          <span className="font-display text-xl tracking-tight text-primary">
-            Lancheira da <span className="text-brick">Flora</span>
-          </span>
-          <a
-            href="#oferta"
-            className="hidden rounded-full border border-brick px-5 py-2 text-sm font-semibold text-brick transition-colors hover:bg-brick hover:text-brick-foreground sm:inline-block"
-          >
-            Quero começar
-          </a>
-        </div>
-      </header>
-
       <section className="relative overflow-hidden bg-background">
         <div className="pointer-events-none absolute -right-40 -top-40 h-[28rem] w-[28rem] rounded-full bg-gold/20 blur-3xl" />
         <div className="container-page relative grid items-center gap-14 py-16 md:grid-cols-2 md:py-24">
