@@ -66,7 +66,7 @@ export function Dores() {
         ))}
       </ul>
 
-      <p className="mx-auto mt-12 max-w-2xl text-center font-display text-2xl leading-snug text-gold">
+      <p className="mx-auto mt-10 max-w-2xl text-center font-display text-2xl leading-snug text-gold">
         Se você leu isso e pensou “é exatamente a minha casa”, respira. Não é
         preguiça, nem desorganização. É só um processo que ninguém te ensinou.
       </p>
