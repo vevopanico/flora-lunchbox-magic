@@ -96,7 +96,7 @@ export function Oferta() {
       </Section>
 
       <Section id="oferta" className="bg-primary text-primary-foreground">
-        <div className="grid items-center gap-12 md:grid-cols-2">
+        <div className="grid items-center gap-8 md:gap-12 md:grid-cols-2">
           <img
             src={produto}
             alt="Método Lancheira da Flora em tablet e celular"

@@ -89,7 +89,7 @@ export function Metodo() {
         </p>
       </div>
 
-      <div className="mt-16 grid items-start gap-10 md:grid-cols-2">
+      <div className="mt-12 grid items-start gap-8 md:mt-16 md:gap-10 md:grid-cols-2">
         <div className="grid gap-5">
           {passos.map((p) => (
             <article key={p.n} className="surface-card p-6">
