@@ -47,7 +47,7 @@ export function Lancheiras() {
         </p>
       </div>
 
-      <div className="mx-auto mt-12 max-w-2xl">
+      <div className="mx-auto mt-10 max-w-2xl">
         <div className="surface-card relative aspect-square overflow-hidden">
           {slides.map((s, idx) => (
             <img
@@ -79,7 +79,7 @@ export function Lancheiras() {
         </div>
       </div>
 
-      <div className="mt-12 text-center">
+      <div className="mt-10 text-center">
         <CTAButton>Quero montar assim amanhã</CTAButton>
       </div>
     </Section>

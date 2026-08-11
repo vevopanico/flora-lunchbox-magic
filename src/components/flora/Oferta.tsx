@@ -51,7 +51,7 @@ export function Oferta() {
             Prefiro perder a venda a te vender a coisa errada.
           </h2>
         </div>
-        <div className="mx-auto mt-12 grid max-w-4xl gap-6 md:grid-cols-2">
+        <div className="mx-auto mt-10 grid md:mt-12 max-w-4xl gap-6 md:grid-cols-2">
           <div className="surface-card p-7">
             <h3 className="text-xl text-brick">O que isso não é</h3>
             <ul className="mt-4 grid gap-3 text-muted-foreground">
@@ -84,7 +84,7 @@ export function Oferta() {
             5 bônus para você aplicar já na próxima segunda-feira
           </h2>
         </div>
-        <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid md:mt-12 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {bonus.map((b) => (
             <article key={b.tag} className="surface-card h-full p-6">
               <span className="eyebrow text-gold">{b.tag}</span>
@@ -96,7 +96,7 @@ export function Oferta() {
       </Section>
 
       <Section id="oferta" className="bg-primary text-primary-foreground">
-        <div className="grid items-center gap-12 md:grid-cols-2">
+        <div className="grid items-center gap-8 md:gap-12 md:grid-cols-2">
           <img
             src={produto}
             alt="Método Lancheira da Flora em tablet e celular"

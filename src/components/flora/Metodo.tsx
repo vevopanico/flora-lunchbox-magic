@@ -66,7 +66,7 @@ export function Dores() {
         ))}
       </ul>
 
-      <p className="mx-auto mt-12 max-w-2xl text-center font-display text-2xl leading-snug text-gold">
+      <p className="mx-auto mt-10 max-w-2xl text-center font-display text-2xl leading-snug text-gold">
         Se você leu isso e pensou “é exatamente a minha casa”, respira. Não é
         preguiça, nem desorganização. É só um processo que ninguém te ensinou.
       </p>
@@ -89,7 +89,7 @@ export function Metodo() {
         </p>
       </div>
 
-      <div className="mt-16 grid items-start gap-10 md:grid-cols-2">
+      <div className="mt-12 grid items-start gap-8 md:mt-16 md:gap-10 md:grid-cols-2">
         <div className="grid gap-5">
           {passos.map((p) => (
             <article key={p.n} className="surface-card p-6">

@@ -29,7 +29,7 @@ function Index() {
     <main>
       <section className="relative overflow-hidden bg-background">
         <div className="pointer-events-none absolute -right-40 -top-40 h-[28rem] w-[28rem] rounded-full bg-gold/20 blur-3xl" />
-        <div className="container-page relative grid items-center gap-14 py-16 md:grid-cols-2 md:py-24">
+        <div className="container-page relative grid items-center gap-10 py-12 sm:gap-12 md:grid-cols-2 md:py-20">
           <div>
             <span className="eyebrow">Para mães reais, sem tempo a perder</span>
             <h1 className="mt-4 font-display text-4xl leading-[1.08] text-primary md:text-[3.4rem]">
