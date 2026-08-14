@@ -10,7 +10,7 @@ import l5 from "@/assets/lancheira-9.jpg";
 const slides = [
   {
     img: l1,
-    alt: "Lancheira com sanduíche de presunto e queijo, uvas verdes, cenourinhas e potinho de iogurte",
+    alt: "Lancheira azul estilo bento com sanduíche integral, morangos, banana, ovo cozido e potinho de geleia",
   },
   {
     img: l2,
