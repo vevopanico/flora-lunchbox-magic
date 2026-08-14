@@ -1,51 +1,31 @@
 import { useEffect, useState } from "react";
 import { ShieldCheck } from "lucide-react";
 import { CTAButton, Section } from "./ui";
-import l1 from "@/assets/lancheira-1.jpg";
-import l2 from "@/assets/lancheira-2.jpg";
-import l3 from "@/assets/lancheira-3.jpg";
-import l4 from "@/assets/lancheira-4.jpg";
-import l5 from "@/assets/lancheira-5.jpg";
-import l6 from "@/assets/lancheira-6.jpg";
-import l7 from "@/assets/lancheira-7.jpg";
-import l8 from "@/assets/lancheira-8.jpg";
-import l9 from "@/assets/lancheira-9.jpg";
+import l1 from "@/assets/lancheira-5.jpg";
+import l2 from "@/assets/lancheira-6.jpg";
+import l3 from "@/assets/lancheira-7.jpg";
+import l4 from "@/assets/lancheira-8.jpg";
+import l5 from "@/assets/lancheira-9.jpg";
 
 const slides = [
   {
     img: l1,
-    alt: "Lancheira infantil organizada com sanduíche integral, morangos, uvas e palitos de cenoura",
-  },
-  {
-    img: l2,
-    alt: "Lancheira colorida com panquecas, cubos de queijo, frutas vermelhas e potinho de iogurte",
-  },
-  {
-    img: l3,
-    alt: "Lancheira com rolinhos de wrap, pepino, pipoca e fatias de bolo de banana",
-  },
-  {
-    img: l4,
-    alt: "Bolsa térmica aberta com pote de lanche, frutas cortadas e garrafinha",
-  },
-  {
-    img: l5,
     alt: "Lancheira com sanduíche de presunto e queijo, uvas verdes, cenourinhas e potinho de iogurte",
   },
   {
-    img: l6,
+    img: l2,
     alt: "Lancheira com rolinhos de wrap de peito de peru e queijo, melancia, tomatinhos e pipoca",
   },
   {
-    img: l7,
+    img: l3,
     alt: "Lancheira com fatias de bolo de banana caseiro, mirtilos, pepino e bolinhas de muçarela",
   },
   {
-    img: l8,
+    img: l4,
     alt: "Lancheira com triângulos de quesadilha de queijo, milho, maçã fatiada e morangos",
   },
   {
-    img: l9,
+    img: l5,
     alt: "Lancheira com pão de queijo, cubos de mamão, ovo cozido e biscoitinhos",
   },
 ];
